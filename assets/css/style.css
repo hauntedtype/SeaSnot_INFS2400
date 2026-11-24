@@ -1,3 +1,5 @@
+/* Main elements */
+
 body {
     font-family: 'Titillium Web', sans-serif;
     background-color: #90E0EF;
@@ -5,4 +7,19 @@ body {
 
 header {
     background-color: #48CAE4;
+}
+
+.container {
+    background-color: #FAF3EB;
+    width: 90%; /* Keeps the same 90% width on small and large screens */
+    max-width: none; /* Prevents it from getting overly wide on huge monitors */
+    padding: 20px;  /* Keeps a clean tan frame on small screens */
+}
+
+/*Widen the tan container without affecting the jumbotron*/
+@media (min-width: 768px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
