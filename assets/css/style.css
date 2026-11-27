@@ -16,6 +16,11 @@ header {
     padding: 20px;  /* Keeps a clean tan frame on small screens */
 }
 
+.jumbotron,
+.card  {
+    border: 5px solid #90E0EF;
+}
+
 /*Widen the tan container without affecting the jumbotron*/
 @media (min-width: 768px) {
     .container {
